@@ -8,4 +8,5 @@ function foo(){
     p.textContent = `${Number(a) + Number(b)}`;
     let div = document.querySelector("#par");
     div.appendChild(p);
+    second.removeEventListener("keyup", foo);
 }
